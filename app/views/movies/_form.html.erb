@@ -1,0 +1,10 @@
+<br>
+
+<div class="jumbotron">
+  <%= form_for(@movie) do |f| %>
+      <%= f.label 'Movie Name' %><br>
+      <%= f.text_field :name, :class => 'form-control' %>
+      <%= f.submit 'Save movie request', :class => 'btn btn-success'%>
+      <%= link_to 'Back To Movies', movies_path, :class => 'btn btn-info' %>
+  <% end %>
+</div>
