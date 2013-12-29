@@ -4,30 +4,32 @@
   <div class="panel-heading">Movie Requests</div>
 
   <!-- Table -->
-  <table class="table">
-    <thead>
-    <tr>
-      <th>ID</th>
-      <th>Movie Name</th>
-      <th>Action</th>
-      <th>Action</th>
-    </tr>
-    </thead>
-    <tbody>
-    <% @movies.each do |movie| %>
-        <tr>
-          <td><%= movie.id %></td>
-          <td><%= movie.name %></td>
-          <td>
-            <%= link_to 'Remove Movie', movie, method: :delete, data: {confirm: 'Are you sure?'} %>
-          </td>
-          <td>
-            <a href="http://torrentz.eu/search?f=<%= movie.name %>">Search Torrentz</a>
-          </td>
-        </tr>
-    <% end %>
-    </tbody>
-  </table>
+  <div class="table-responsive">
+    <table class="table">
+      <thead>
+      <tr>
+        <th>ID</th>
+        <th>Movie Name</th>
+        <th>Action</th>
+        <th>Action</th>
+      </tr>
+      </thead>
+      <tbody>
+      <% @movies.each do |movie| %>
+          <tr>
+            <td><%= movie.id %></td>
+            <td><%= movie.name %></td>
+            <td>
+              <%= link_to 'Remove Movie', movie, method: :delete, data: {confirm: 'Are you sure?'} %>
+            </td>
+            <td>
+              <a href="http://torrentz.eu/search?f=<%= movie.name %>">Search Torrentz</a>
+            </td>
+          </tr>
+      <% end %>
+      </tbody>
+    </table>
+  </div>
 </div>
 
 <%= link_to 'New Movie', new_movie_path, :class => 'btn btn-success' %>
