@@ -14,12 +14,20 @@ class MoviesController < ApplicationController
   # POST /movies
   def create
     @movie = Movie.new(movie_params)
-
+    @movie.status = false
     if @movie.save
       redirect_to movies_url
     else
       render action: 'new'
     end
+  end
+
+  def update
+    @movie = Movie.find(params[:id])
+    if @movie.update_attribute(:status, true)
+      flash[:notice] = 'Successfully updated movie.'
+    end
+    redirect_to movies_url
   end
 
   # DELETE /movies/1
@@ -36,7 +44,7 @@ class MoviesController < ApplicationController
 
   # Never trust parameters from the scary internet, only allow the white list through.
   def movie_params
-    params.require(:movie).permit(:name)
+    params.require(:movie).permit(:name, :status)
   end
 
 end

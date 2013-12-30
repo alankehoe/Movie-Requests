@@ -10,8 +10,9 @@
       <tr>
         <th>ID</th>
         <th>Movie Name</th>
-        <th>Action</th>
-        <th>Action</th>
+        <th>Downloaded</th>
+        <th>Mark downloaded</th>
+        <th>Destroy</th>
       </tr>
       </thead>
       <tbody>
@@ -19,12 +20,9 @@
           <tr>
             <td><%= movie.id %></td>
             <td><%= movie.name %></td>
-            <td>
-              <%= link_to 'Remove Movie', movie, method: :delete, data: {confirm: 'Are you sure?'} %>
-            </td>
-            <td>
-              <a href="http://torrentz.eu/search?f=<%= movie.name %>">Search Torrentz</a>
-            </td>
+            <td><%= movie.status %></td>
+            <td><%= link_to 'downloaded', movie, method: :put %></td>
+            <td><%= link_to 'destroy', movie, method: :delete, data: {confirm: 'Are you sure'} %></td>
           </tr>
       <% end %>
       </tbody>
