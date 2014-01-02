@@ -1,6 +1,8 @@
 <br>
 
 <div class="jumbotron">
+  <%= @movie.errors.full_messages.first if @movie.errors.any? %>
+
   <%= form_for(@movie) do |f| %>
       <%= f.label 'Movie Name' %><br>
       <%= f.text_field :name, :class => 'form-control', :placeholder => 'Some cool movie' %>

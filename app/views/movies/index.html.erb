@@ -20,7 +20,9 @@
           <tr>
             <td><%= movie.id %></td>
             <td><%= movie.name %></td>
-            <td><%= movie.status %></td>
+            <td>
+              <i class="<%= movie.status? ? "#{'glyphicon'} #{'glyphicon-ok'}" : "#{'glyphicon'} #{'glyphicon-remove'}" %>"></i>
+            </td>
             <td><%= link_to 'downloaded', movie, method: :put %></td>
             <td><%= link_to 'destroy', movie, method: :delete, data: {confirm: 'Are you sure'} %></td>
           </tr>
@@ -31,3 +33,6 @@
 </div>
 
 <%= link_to 'New Movie', new_movie_path, :class => 'btn btn-success' %>
+
+<br>
+<br>
