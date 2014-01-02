@@ -10,9 +10,9 @@
       <tr>
         <th>ID</th>
         <th>Movie Name</th>
-        <th>Downloaded</th>
-        <th>Mark downloaded</th>
-        <th>Destroy</th>
+        <th>Status</th>
+        <th>Mark as downloaded</th>
+        <th>Delete movie request</th>
       </tr>
       </thead>
       <tbody>
@@ -23,8 +23,8 @@
             <td>
               <i class="<%= movie.status? ? "#{'glyphicon'} #{'glyphicon-ok'}" : "#{'glyphicon'} #{'glyphicon-remove'}" %>"></i>
             </td>
-            <td><%= link_to 'downloaded', movie, method: :put %></td>
-            <td><%= link_to 'destroy', movie, method: :delete, data: {confirm: 'Are you sure'} %></td>
+            <td><%= link_to '<i class="glyphicon glyphicon-floppy-save"></i>'.html_safe, movie, method: :put %></td>
+            <td><%= link_to '<i class="glyphicon glyphicon-trash"></i>'.html_safe, movie, method: :delete, data: {confirm: 'Are you sure'} %></td>
           </tr>
       <% end %>
       </tbody>
