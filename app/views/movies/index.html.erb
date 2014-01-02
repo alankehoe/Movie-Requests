@@ -8,23 +8,19 @@
     <table class="table">
       <thead>
       <tr>
-        <th>ID</th>
         <th>Movie Name</th>
         <th>Status</th>
-        <th>Mark as downloaded</th>
-        <th>Delete movie request</th>
+        <th>Change Status</th>
       </tr>
       </thead>
       <tbody>
       <% @movies.each do |movie| %>
           <tr>
-            <td><%= movie.id %></td>
-            <td><%= movie.name %></td>
+            <td><%= movie.name.upcase %></td>
             <td>
               <i class="<%= movie.status? ? "#{'glyphicon'} #{'glyphicon-ok'}" : "#{'glyphicon'} #{'glyphicon-remove'}" %>"></i>
             </td>
-            <td><%= link_to '<i class="glyphicon glyphicon-floppy-save"></i>'.html_safe, movie, method: :put %></td>
-            <td><%= link_to '<i class="glyphicon glyphicon-trash"></i>'.html_safe, movie, method: :delete, data: {confirm: 'Are you sure'} %></td>
+            <td><%= link_to '<i class="glyphicon glyphicon-refresh"></i>'.html_safe, movie, method: :put %></td>
           </tr>
       <% end %>
       </tbody>

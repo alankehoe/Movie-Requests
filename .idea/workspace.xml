@@ -27,6 +27,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b98092ce-9327-42e5-857c-eca1ba59550e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/movies/index.html.erb" afterPath="$PROJECT_DIR$/app/views/movies/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/movies_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/movies_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Movie Requests.iws" />
@@ -40,7 +41,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Movie Requests@db_migrate__Movie_Requests.coverage" NAME="db:migrate: Movie Requests Coverage Results" MODIFIED="1388363512216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Movie Requests" />
-    <SUITE FILE_PATH="coverage/Movie Requests@Development__Movie_Requests.coverage" NAME="Development: Movie Requests Coverage Results" MODIFIED="1388689508530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Movie Requests" />
+    <SUITE FILE_PATH="coverage/Movie Requests@Development__Movie_Requests.coverage" NAME="Development: Movie Requests Coverage Results" MODIFIED="1388692382591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Movie Requests" />
     <SUITE FILE_PATH="coverage/Movie Requests@db_drop__Movie_Requests.coverage" NAME="db:drop: Movie Requests Coverage Results" MODIFIED="1388363504445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Movie Requests" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -55,19 +56,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/movies/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="32" selection-start="332" selection-end="332" vertical-scroll-proportion="0.31839624" vertical-offset="75" max-vertical-offset="660">
+            <state line="18" column="37" selection-start="404" selection-end="404" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="600">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="movies_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="movies_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/movies_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="12" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="840">
+            <state line="32" column="0" selection-start="617" selection-end="617" vertical-scroll-proportion="0.7809111" vertical-offset="120" max-vertical-offset="855">
               <folding />
             </state>
           </provider>
@@ -116,10 +117,10 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/movies_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/movie.rb" />
         <option value="$PROJECT_DIR$/app/views/movies/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/movies/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/movies_controller.rb" />
       </list>
     </option>
   </component>
@@ -161,6 +162,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -213,7 +215,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -432,7 +433,11 @@
       <created>1388689178266</created>
       <updated>1388689178266</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Nicer views">
+      <created>1388689795172</created>
+      <updated>1388689795172</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -441,24 +446,24 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27786753" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21324718" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32737276" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -480,12 +485,20 @@
     <MESSAGE value="viewport" />
     <MESSAGE value="mark movie when downloaded" />
     <MESSAGE value="glyphicon's" />
-    <option name="LAST_COMMIT_MESSAGE" value="glyphicon's" />
+    <MESSAGE value="Nicer views" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nicer views" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="1186" selection-end="1186" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/movies/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="68" selection-start="673" selection-end="673" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="585">
@@ -509,9 +522,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/movies/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="77" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-          <folding />
-        </state>
+        <state line="5" column="77" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/movies/new.html.erb">
@@ -537,9 +548,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/movies/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="33" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="240">
-          <folding />
-        </state>
+        <state line="7" column="33" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="240" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/movies/new.html.erb">
@@ -565,9 +574,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/movies/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="33" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="240">
-          <folding />
-        </state>
+        <state line="7" column="33" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="240" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/movies/new.html.erb">
@@ -593,9 +600,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/movies/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="33" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="240">
-          <folding />
-        </state>
+        <state line="7" column="33" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="240" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/movies/new.html.erb">
@@ -776,21 +781,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/movies/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.41189933" vertical-offset="0" max-vertical-offset="437">
-          <folding />
-        </state>
+        <state line="12" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.41189933" vertical-offset="0" max-vertical-offset="437" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/movies_controller.rb">
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs193/enumerable.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="12" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="840">
+        <state line="414" column="8" selection-start="17837" selection-end="17837" vertical-scroll-proportion="0.33188722" vertical-offset="6057" max-vertical-offset="15480">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/movies/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="32" selection-start="332" selection-end="332" vertical-scroll-proportion="0.31839624" vertical-offset="75" max-vertical-offset="660">
+        <state line="18" column="37" selection-start="404" selection-end="404" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/movies_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="617" selection-end="617" vertical-scroll-proportion="0.7809111" vertical-offset="120" max-vertical-offset="855">
           <folding />
         </state>
       </provider>

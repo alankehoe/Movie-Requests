@@ -24,8 +24,9 @@ class MoviesController < ApplicationController
 
   def update
     @movie = Movie.find(params[:id])
-    if @movie.update_attribute(:status, true)
-      flash[:notice] = 'Successfully updated movie.'
+    if @movie.status
+      then @movie.update_attribute(:status, false)
+      else @movie.update_attribute(:status, true)
     end
     redirect_to movies_url
   end
