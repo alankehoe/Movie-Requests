@@ -3,7 +3,7 @@ class MoviesController < ApplicationController
 
   # GET /movies
   def index
-    @movies = Movie.all
+    @movies = Movie.order(status: :desc)
   end
 
   # GET /movies/new
