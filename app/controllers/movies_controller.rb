@@ -16,7 +16,7 @@ class MoviesController < ApplicationController
     @movie = Movie.new(movie_params)
     @movie.status = false
     if @movie.save
-      redirect_to new_movie_path
+      redirect_to movie_url
     else
       render action: 'new'
     end
